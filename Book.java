@@ -1,3 +1,5 @@
+//Created by Erik Stilwell
+
 public class Book extends Publication{
     private String ISBN;
     private String Author;

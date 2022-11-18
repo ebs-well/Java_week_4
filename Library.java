@@ -1,6 +1,7 @@
+//Created by Erik Stilwell
 public class Library{
     private Book[] Books = new Book[5];
-    public int libSize = Books.length;
+    public int libSize = Books.length; //This will allow us run our for loop without having to know how long the array is.
 
     // Method
     // Return the information from the constructor Library Index
@@ -8,6 +9,8 @@ public class Library{
     {
         return Books[index];
     }
+
+    //Setters and getter necessary to access info for the libSize
 
     //Setter
     public void setBooks(Book[] books) {

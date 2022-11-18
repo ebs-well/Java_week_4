@@ -1,3 +1,5 @@
+//Created by Erik Stilwell
+
 public class Publication {
     private String Title;
     private double Price;
